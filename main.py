@@ -57,3 +57,4 @@ if st.session_state.get("show_results", False):
     st.write("### Your Answers:")
     for i, ans in enumerate(st.session_state.answers):
         st.write(f"Q{i+1}: {ans}")
+
